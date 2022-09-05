@@ -37,7 +37,7 @@ def main(iterations, axiom, rules, angle, length= 8, size=2, y_offset=0, x_offse
     draw_l_systems(t, inst, angle, length)
     t.hideturtle()
 
-    # wn.exitonclicl()
+    wn.exitonclick()
 
 #Квадратный остров Коха
 # axiom = "F+F+F+F"
